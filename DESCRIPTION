@@ -1,0 +1,13 @@
+Package: fortranio
+Type: Package
+Title: Demo of fortran input output
+Version: 0.1
+Author: Joseph Stachelek
+Maintainer: Joseph Stachelek <stachel2@msu.edu>
+Description: Demo of fortran input output via the file system.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Authors@R: person("Joseph", "Stachelek", comment = c(ORCID = "0000-0002-5924-2464"), role = c("aut", "cre"), 
+ email = "stachel2@msu.edu")
+RoxygenNote: 6.0.1

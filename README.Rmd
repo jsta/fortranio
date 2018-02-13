@@ -1,0 +1,27 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# fortranio
+
+* Create `src` folder with `use_rcpp()`
+
+* Create `src/Makevars` or `src/Makefile`
+
+* Create fortran program that compiles to executable
+
+* Create R function that make files in a specific location
+
+* Read files in specified location with compiled fortran executable
