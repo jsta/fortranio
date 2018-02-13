@@ -2,13 +2,13 @@
 fortranio
 =========
 
--   Create `src` folder with `use_rcpp()`
+:heavy\_check\_mark: Create `src` folder with `use_rcpp()`
 
--   Create `src/Makevars` or `src/Makefile`
+:heavy\_check\_mark: Create `src/Makevars` or `src/Makefile`
 
--   Create fortran program that compiles to executable
+:heavy\_check\_mark: Create fortran program that compiles to executable
 
--   Create R function that passes file names as argument to fortran program
+:heavy\_check\_mark: Create R function that passes file names as argument to fortran program
 
 -   Read specified file with fortran
 
