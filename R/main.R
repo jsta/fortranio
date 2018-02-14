@@ -1,4 +1,8 @@
 #' Read file
+#'
+#' @param fpath file.path
+#'
+#' @importFrom utils read.table
 #' @export
 #'
 ch1001 <- function(fpath = file.path(system.file(package = "fortranio"), "extdata", "ch1001.txt")){
@@ -10,7 +14,8 @@ ch1001 <- function(fpath = file.path(system.file(package = "fortranio"), "extdat
     stop("file does not exist!")
   }
 
-  system2(path, args = fpath, stdout = TRUE)
+  res <- read.table(textConnection(system2(path, args = fpath, stdout = TRUE)))
+  res
 }
 
 is_windows <- function(){

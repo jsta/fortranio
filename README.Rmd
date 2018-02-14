@@ -16,6 +16,12 @@ knitr::opts_chunk$set(
 
 # fortranio
 
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+`R` package demo of reading files in an arbitrary location with fortran 
+
+## Roadmap
+
 :heavy_check_mark: Create `src` folder with `use_rcpp()`
 
 :heavy_check_mark: Create `src/Makevars` or `src/Makefile`
@@ -24,6 +30,6 @@ knitr::opts_chunk$set(
 
 :heavy_check_mark: Create R function that passes file names as argument to fortran program
 
-* Read specified file with fortran
+:heavy_check_mark: Read specified file with fortran
 
-* Capture output in R
+:heavy_check_mark: Capture output in R
